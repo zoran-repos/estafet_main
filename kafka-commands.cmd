@@ -6,7 +6,7 @@
 (Starting broker)
 2. kafka-server-start.bat ..\..\config\server.properties
 
-(Creating topic for payemnts)
+(Creating topic for payments)
 3. kafka-topics.bat --bootstrap-server localhost:9092 --create --topic payments --partitions 1 --replication-factor 1
 
 (Checking list of current topics)
